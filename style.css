@@ -1,0 +1,119 @@
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('../fonts/montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url('../fonts/montserrat/Montserrat-ExtraBold.ttf');
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf');
+}
+body, html{
+  margin: 0;
+  font-family:Montserrat-Regular, sans-serif;;
+  font-size: 16px;
+  height: 100%;
+}
+#usu{
+  border: 0px solid;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+}
+#texto{
+  color: black;
+}
+
+.Container{
+  background-color: rgba(255, 255, 255, 1);
+  background-clip: border-box;
+  width: 440px;
+  padding: 25px;
+  margin: 25px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+#olv {
+  color: black;
+}
+.text{
+    position: absolute;
+  	top: 50%;
+  	right: 50%;
+  	transform: translate(50%,-50%);
+  	color: #ffffff;
+  	max-width: 90%;
+    background: none;
+    text-shadow: 0px 0px 2px #131415;
+  	padding: -2em 0em;
+    font-family: 'Open Sans', sans-serif;
+}
+#Admin{
+  position: relative;
+  top: -65px;
+  left: 235px;
+  color: black;
+}
+#boton{
+  width: 200px;
+}
+#logotexto{
+  width: 45px;
+}
+button:hover{
+  border: #fff 1px solid;
+}
+iframe{
+  border: none !important;
+}
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+.btn-face,
+.btn-google {
+  font-family: Raleway-Bold;
+  font-size: 16px;
+  line-height: 1.2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc((100% - 10px) / 2);
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.btn-face {
+  color: #3b5998;
+}
+.btn-face i {
+  font-size: 20px;
+  margin-right: 10px;
+  padding-bottom: 1px;
+}
+.btn-google {
+  color: #555555;
+}
+.btn-google img {
+  width: 19px;
+  margin-right: 10px;
+  padding-bottom: 1px;
+}
+.btn-face:hover,
+.btn-google:hover {
+  border-color: #d33f8d;
+}
+#particles-js{
+  background-image: url('fotos/fondoblanco.jpg');
+  height: 100vh; /* tamanio del browser */
+}
